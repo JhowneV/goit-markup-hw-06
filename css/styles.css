@@ -427,6 +427,12 @@ body {
 /*END OF CUSTOMERS STYLING*/
 
 /*FOOTER STYLNG*/
+.bg-dark {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--navy);
+}
 .logostudio-footer {
     color: var(--cloud);
     height: 312px;
@@ -473,6 +479,10 @@ body {
     
 }
 
+.footer-sub {
+    margin-left: 80px;
+}
+
 .footer-input-sub {
     border: 2px solid white;
     background: none;
@@ -509,7 +519,5 @@ body {
 .button-subscribed svg {
     fill: white;
 }
-
-
 /*END OF FOOTER STYLNG*/
 
